@@ -7,7 +7,7 @@ public class ClassicLoadBalancerApp{
         App app = new App();
 
         new ClassicLoadBalancerStack(app, "cdk-classic-load-balancer-example");
-
+        //call synth
         app.synth();
     }
 }
